@@ -48,8 +48,8 @@ export const menu = [
       visible: false,
       text: 'soon',
     },
-    isActive: true,
     url: 'https://tenkkov.pages.dev',
+    isActive: true,
     text: 'Blog',
     id: 4,
   },
@@ -406,4 +406,3 @@ export const qualifications = [
   },
 ]
 export type TQualificationItem = GetArrayItem<typeof qualifications>
-
