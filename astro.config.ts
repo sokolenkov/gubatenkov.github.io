@@ -1,4 +1,4 @@
-import utwm from 'unplugin-tailwindcss-mangle/vite'
+import { vitePlugin as utwm } from 'unplugin-tailwindcss-mangle'
 import { astroImageTools } from 'astro-imagetools'
 import { defineConfig } from 'astro/config'
 import tailwind from '@astrojs/tailwind'

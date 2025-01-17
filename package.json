@@ -9,7 +9,7 @@
     "build": "astro check && tsc --noEmit && astro build",
     "preview": "astro preview",
     "lint": "prettier --write  \"**/*.{js,jsx,ts,tsx,md,mdx,astro}\" && eslint --fix \"src/**/*.{js,ts,jsx,tsx,astro}\"",
-    "prepare": "tw-patch install",
+    "prepare": "tw-patch",
     "astro": "astro"
   },
   "dependencies": {
@@ -47,9 +47,9 @@
     "prettier": "^2.8.8",
     "prettier-plugin-astro": "^0.10.0",
     "prettier-plugin-tailwindcss": "^0.3.0",
-    "tailwindcss-patch": "^5.0.2",
+    "tailwindcss-patch": "1.2.6",
     "typescript": "^5.7.3",
-    "unplugin-tailwindcss-mangle": "^4.0.2",
+    "unplugin-tailwindcss-mangle": "1.2.6",
     "vite-plugin-glsl": "^1.1.2"
   }
 }
