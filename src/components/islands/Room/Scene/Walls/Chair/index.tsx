@@ -19,7 +19,7 @@ const Chair = () => {
   const { animations, nodes } = useGLTF(
     '/models/chair.glb',
     '/draco/'
-  ) as GTLFResult
+  ) as unknown as GTLFResult
   const { mixer, clips } = useAnimations(animations, plane)
   const material = useMemo(() => new MeshBasicMaterial({ map }), [map])
   let action: AnimationAction
