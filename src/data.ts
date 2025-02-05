@@ -8,7 +8,7 @@ import MailIcon from '@/components/icons/MailIcon'
 
 export type GetArrayItem<T extends readonly unknown[]> = T[number]
 
-export const SITE_TITLE = 'Slava - Frontend Developer'
+export const SITE_TITLE = 'Vyacheslav Gubatenko'
 export const SITE_DESCRIPTION =
   'I am a frontend developer and technology enthusiast living in Ukraine. I work with startups, agencies and studios to help develop amazing business solutions.'
 
