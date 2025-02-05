@@ -75,7 +75,7 @@ export const socials = [
     id: 1,
   },
   {
-    url: 'https://www.linkedin.com/in/tenkkov/',
+    url: 'https://www.linkedin.com/in/gubatenko-vyacheslav',
     icon: LinkedInIcon,
     text: 'LinkedIn',
     id: 2,
